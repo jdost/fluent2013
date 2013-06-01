@@ -1,13 +1,13 @@
 # Browser Versions are Dead
 ## Kyle Simpson
-[Slides][https://speakerdeck.com/getify/browser-versions-are-dead-v5]
+[Slides](https://speakerdeck.com/getify/browser-versions-are-dead-v5)
 
 ### Lie: "Browser Versions (still) Matter"
 
 * Doesn't matter, browsers constantly update
 * Versions are arbitrary marketing labels
 * Features are what matter (use feature detection)
-* [Modernizr][http://modernizr.com/]
+* [Modernizr](http://modernizr.com/)
 * "Browser detection: it's like asking what house you live in to find the bathroom"
 * Primary culprit is: analytics
 

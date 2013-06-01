@@ -5,7 +5,7 @@
 
 * Better for applications, libraries, code generators (Coffee, Clojurescript, etc)
 * Now engine prototypes implementing proposals
-* [Kangax's ES6 table][http://kangax.github.io/es5-compat-table/es6/]
+* [Kangax's ES6 table](http://kangax.github.io/es5-compat-table/es6/)
 
 Arrow functions (ES6)
 ```
@@ -43,19 +43,19 @@ let adder = (a, b) -> {
 
 # ABC of Data Visualization
 ## Irene Ros
-[Slides][https://speakerdeck.com/iros/architecting-better-charts-fluentconf-2013-keynote]
+[Slides](https://speakerdeck.com/iros/architecting-better-charts-fluentconf-2013-keynote)
 
 > D3 is for charting like what jQuery is for the web
 
 * Make Reusable charts!
 * Repeatable, configurable, extensible, composable
 
-[D3 Charts][https://github.com/misoproject/d3.chart] (new library from bocoup)
+[D3 Charts](https://github.com/misoproject/d3.chart) (new library from bocoup)
 
 
 # Javascript Authoring Tools
 ## Paul Irish
-[Slides][https://dl.dropboxusercontent.com/u/39519/talks/fluent-2013/index.html]
+[Slides](https://dl.dropboxusercontent.com/u/39519/talks/fluent-2013/index.html)
 
 ### Workspaces
 
@@ -68,5 +68,4 @@ let adder = (a, b) -> {
 * Full traceability of selectors, properties, bariables
 * Contributed V3 sourcemap support in Sass core
 * Automatic reoad of stylesheet
-
 * Bower integration?

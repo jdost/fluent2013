@@ -1,6 +1,6 @@
 # Getting Good: Integrating Novice Developers
 ## Elise Worthy
-[Slides][https://speakerdeck.com/eliseworthy/getting-good-integrating-novice-developers]
+[Slides](https://speakerdeck.com/eliseworthy/getting-good-integrating-novice-developers)
 
 ### You **need** junior developers
 
@@ -10,7 +10,6 @@
 * "When we are different, we think different"
 * Diverse (random) groups of problem solvers outperform similar experts
 * The language can be taught (the perspectives remain)
-
 * Autonomy - "Let individuals control their own destiny" (give them something to own)
 * Mastery - "Incentivize by challenge" (in over their head forces them to learn)
 * Purpose - "make it meaningful"
@@ -21,7 +20,6 @@
 * Social proof, lead by example
 * Authority - leaders need to be vocal about junior developers
 * Banish skepticism
-
 * Each novice needs a (technical) mentor to meet with regularly
 * When starting something new, take **nothing** for granted
 * Should have regular pairing sessions, with more than one person

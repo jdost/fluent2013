@@ -13,7 +13,6 @@
 * Strong negative impacts
 * Roughly linear changes with increasing delay
 * Web search downgrades based on speed
-
 * Simple user-input must be acknowledged within ~100 ms
 * To keep the user engaged, the task must completed within 1000 ms
 
@@ -21,18 +20,15 @@
 
 * Single digit % perf improvement after 5 Mbps
 * Latency is where improvement lies
-
 * Easy to improve bandwidth
 * Hard to improve latency (impossible)
 
 ### Mobile Network
 
 * Mobile networks are slow (3G is real slow, lots of steps communicating location)
-
 * Mobile (800-4100 ms for 3G / 400-1900 ms for 4G) for 20 KB file (250ms for PC)
 * 3G (HSPA+) will be dominant network for next decade
 * North America is ahead of the curve (way ahead)
-
 * Radio usage (meaning long reaching requests/traffic) is big battery hog
 * No matter the size of packet, turns on the radio for 10s, so send as much as you
   can
@@ -76,7 +72,6 @@ Push can preemptively push resources to a server (images, common data packets, e
 * JS fetching/executing can block DOM construction
 * CSS fetch at the top (will block rendering until loaded)
 * JS fetch at bottom (will render page while loading JS)
-
 * Async scripts:
 ``` html
 <script type="text/javascript" src="some.js"></script>
@@ -90,7 +85,6 @@ Push can preemptively push resources to a server (images, common data packets, e
 </script>
 ```
 * `async` attribute: `&lt;script src="some.js" async&gt;&lt;/script&gt;`
-
 * JS can query CSSOM (CSS Object Model), block, and modify (same for DOM)
 * Avoid doc.write in JS (removes render interuption)
 
@@ -103,7 +97,6 @@ Push can preemptively push resources to a server (images, common data packets, e
    * Identify and inline critical CSS
    * Eliminate Javascript from critical rendering path
 * Defer the rest until after the required parts have loaded
-
 * Identify critical CSS via an Audit
    * DevTools > Audits > Web Page Performance
    * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
@@ -123,7 +116,6 @@ Push can preemptively push resources to a server (images, common data packets, e
 
 * Sampling: DevTools > Profiles > Collection JavaScript CPU Profile
 * Structural (instrumenting/markers/inline): chrome://tracing
-
 * Annotate code for structural profiling:
 ``` javascript
 console.time("A");
@@ -138,7 +130,7 @@ console.endTime("A");
    * Grab snapshot profiles: DevTools > Profiles > Take Heap Snapshot
    * Will highlight (summarize) created, deleted, and change in items
    * (Use to find abandoned DOM elements, i.e. leaks)
-   [Video][http://goo.gl/dtRi8]
+   [Video](http://goo.gl/dtRi8)
 
 ### Layout
 
@@ -172,8 +164,6 @@ console.endTime("A");
   them is not
 * CSS3 animations == "free lunch", CSS Transforms are all GPU specific actions 
   (offloads from CPU)
-
-
 * GZIP your (text) assets
 * Optimize images, pick optimal format
 * Add an Expires and ETags header (better caching)
@@ -187,8 +177,7 @@ console.endTime("A");
 
 
 - - -
-PROTIP: `_gaq.push(['_setSiteSpeedSampleRate', 100])` increases sample rate
-SELF: Checkout speed numbers on GA
-Setup {daily, weekly, ...} reports on network perception, GA advanced segments
-NOTE: SPDY only needs to sit on the edge server, all requests from nginx are HTTP(1)
-SELF: Grab canary
+
+* PROTIP: `_gaq.push(['_setSiteSpeedSampleRate', 100])` increases sample rate
+* Setup {daily, weekly, ...} reports on network perception, GA advanced segments
+* NOTE: SPDY only needs to sit on the edge server, all requests from nginx are HTTP(1)

@@ -1,6 +1,6 @@
 # Classical Inheritance: Prototypal Inheritance
 ## Eric Elliott
-[Slides (kind of)][https://github.com/dilvie/fluent-prototypal-oo]
+[Slides (kind of)](https://github.com/dilvie/fluent-prototypal-oo)
 
 ### Lots of libraries emulate classes in JS
 
@@ -27,7 +27,7 @@ Favor object composition over class inheritance -- Gang of four
 * Saves some of the various prototypal patterns
 * Can use `.call` and `.apply` to add flexibility
 
-Showed off [stampit][https://github.com/dilvie/stampit], a library he wrote to use 
+Showed off [stampit](https://github.com/dilvie/stampit), a library he wrote to use 
 for object composition, creating enclosed "prototypes" that can be composed together 
 to create the ideal object.  Mostly an ordered and less chaotic idea of multiple 
 inheritance (C++ nightmares ensue)

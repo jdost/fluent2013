@@ -1,6 +1,6 @@
 # Angry Birds of Modern JS
 ## Elijah Manor
-[Slides][http://elijahmanor.github.io/talks/angry-birds-javascript/index.html]
+[Slides](http://elijahmanor.github.io/talks/angry-birds-javascript/index.html)
 
 ### IIFE Pattern
 
@@ -40,18 +40,18 @@
 
 ### Templating engines
 
-* [Underscore.js][http://underscorejs.org/#template] templating, based on jeresig's 
+* [Underscore.js](http://underscorejs.org/#template) templating, based on jeresig's 
   micro templating
 * Advantages: small, stick in arbitrary code
-* [Handlebars.js][http://handlebarsjs.com/] templating, similar to underscore's
+* [Handlebars.js](http://handlebarsjs.com/) templating, similar to underscore's
 * Allows you to register functions and keep in safe execution(?)
 * Can precompile on the backend
 * No logic (logicless)
 
-### Project manager [Grunt][http://gruntjs.com/]
+### Project manager [Grunt](http://gruntjs.com/)
 
 * Dictate package dependencies (kind of like Makefile for JS projects)
 * Lots of plugins
 
-[Yeoman][http://yeoman.io/]
-[Bower][http://bower.io/]
+[Yeoman](http://yeoman.io/)
+[Bower](http://bower.io/)

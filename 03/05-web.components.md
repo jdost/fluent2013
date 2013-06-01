@@ -1,6 +1,6 @@
 # Web Components
 ## Eric Bidelman
-[Slides][http://www.webcomponentsshift.com/]
+[Slides](http://www.webcomponentsshift.com/)
 
 ### Building Blocks
 

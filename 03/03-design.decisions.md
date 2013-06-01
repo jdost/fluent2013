@@ -18,14 +18,14 @@
 * Pick and choose what you will use/need
 * Use the framework as a foundation
 * Will eventually ripe out what you aren't using 
-  ([CSSLint][https://github.com/stubbornella/csslint])
+  ([CSSLint](https://github.com/stubbornella/csslint))
 
 ### Grids 
 
 * Can be useless
 * Help content hierarchy
-* [Bootstrap][http://twitter.github.io/bootstrap/], [960.gs][http://960.gs/], 
-  [skeleton][http://www.getskeleton.com/], [foundation][http://foundation.zurb.com/]
+* [Bootstrap](http://twitter.github.io/bootstrap/), [960.gs](http://960.gs/),
+  [skeleton](http://www.getskeleton.com/), [foundation](http://foundation.zurb.com/)
 * Media queries
 
 ### Pattern Libraries 
@@ -33,7 +33,7 @@
 * Easy way to write markup
 * Pears (site for common patterns of markup and style)
 * Visual patterns are a trained eye (train for it, no magic potion)
-* [Dribbble][http://dribbble.com/] & Buckets (collections of examples)
+* [Dribbble](http://dribbble.com/) & Buckets (collections of examples)
 
 ### Style Guides
 
@@ -41,4 +41,4 @@
 * Guidelines on both languages and look
 
 ---
-[KSS][http://warpspire.com/kss/] - github styleguide generator
+[KSS](http://warpspire.com/kss/) - github styleguide generator

@@ -8,17 +8,17 @@
 * Need a broken pattern to fix (not design pattern, text pattern)
 * Filer scripts: open, scan regex (text streams)
 
-[Towelie][https://github.com/gilesbowkett/towelie]
+[Towelie](https://github.com/gilesbowkett/towelie)
 
 * Automated similarity detection
 * Aims to keep things DRY
 
-[Wheatley][https://github.com/gilesbowkett/wheatley]
+[Wheatley](https://github.com/gilesbowkett/wheatley)
 
 * Targets JS
 * Improves on Towelie, runs faster, targetted ruby versus JS
 
-[Rewind][https://github.com/gilesbowkett/rewind]
+[Rewind](https://github.com/gilesbowkett/rewind)
 
 * Git repo history analysis
 * Use to target files often editted (possible hot zones)
