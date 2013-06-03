@@ -1,5 +1,4 @@
-# Fast Design Decision-Making
-## Julie Horvath
+## Fast Design Decision-Making -- *Julie Horvath*
 
 ### A website's design should start where it's going to live
 

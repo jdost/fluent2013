@@ -1,5 +1,4 @@
-# Javascript is Legal
-## Brendan Eich
+## Javascript is Legal -- *Brendan Eich*
 
 ### ECMAScript Harmony (ES6/7)
 
@@ -41,8 +40,7 @@ let adder = (a, b) -> {
 * ASM.JS uses an optimized subset of JS for speed
 
 
-# ABC of Data Visualization
-## Irene Ros
+## ABC of Data Visualization -- *Irene Ros*
 [Slides](https://speakerdeck.com/iros/architecting-better-charts-fluentconf-2013-keynote)
 
 > D3 is for charting like what jQuery is for the web
@@ -53,8 +51,7 @@ let adder = (a, b) -> {
 [D3 Charts](https://github.com/misoproject/d3.chart) (new library from bocoup)
 
 
-# Javascript Authoring Tools
-## Paul Irish
+## Javascript Authoring Tools -- *Paul Irish*
 [Slides](https://dl.dropboxusercontent.com/u/39519/talks/fluent-2013/index.html)
 
 ### Workspaces

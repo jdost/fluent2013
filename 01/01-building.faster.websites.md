@@ -1,5 +1,4 @@
-# Building Faster Websites: Crash Course on Web Performance
-## Ilya Grigorik (Google)
+## Building Faster Websites: Crash Course on Web Performance -- *Ilya Grigorik (Google)*
 [Slides](http://cdn.oreillystatic.com/en/assets/1/event/93/Building%20Faster%20Websites_%20Crash%20Course%20on%20Web%20Performance%20Presentation.pdf)
 
 ### Network

@@ -1,5 +1,4 @@
-# More than Good Design
-## Sarah Mei
+## More than Good Design -- *Sarah Mei*
 
 * Good code is at the intersection of software design and team dynamics
 * Not all dependencies are created equal

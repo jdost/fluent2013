@@ -1,5 +1,4 @@
-# Javascript Tools & Strategies
-## Ariya Hidayat
+## Javascript Tools & Strategies -- *Ariya Hidayat*
 [Slides](https://speakerdeck.com/ariya/improving-javascript-code-quality-strategies-and-tools)
 
 > How do you track code quality over time?

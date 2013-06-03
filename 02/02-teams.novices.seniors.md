@@ -1,5 +1,4 @@
-# Getting Good: Integrating Novice Developers
-## Elise Worthy
+## Getting Good: Integrating Novice Developers -- *Elise Worthy*
 [Slides](https://speakerdeck.com/eliseworthy/getting-good-integrating-novice-developers)
 
 ### You **need** junior developers
@@ -27,8 +26,7 @@
 * Developers should create individual learning goals with self chosen objectives
 
 
-# Tips for a Senior Developer
-## Carina Zona
+## Tips for a Senior Developer -- *Carina Zona*
 
 * Fight for what you believe, but gracefully accept defeat
 * Only true authority stems from knowledge not position, Help people level up

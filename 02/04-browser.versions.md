@@ -1,5 +1,4 @@
-# Browser Versions are Dead
-## Kyle Simpson
+## Browser Versions are Dead -- *Kyle Simpson*
 [Slides](https://speakerdeck.com/getify/browser-versions-are-dead-v5)
 
 ### Lie: "Browser Versions (still) Matter"

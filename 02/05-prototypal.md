@@ -1,5 +1,4 @@
-# Classical Inheritance: Prototypal Inheritance
-## Eric Elliott
+## Classical Inheritance: Prototypal Inheritance -- *Eric Elliott*
 [Slides (kind of)](https://github.com/dilvie/fluent-prototypal-oo)
 
 ### Lots of libraries emulate classes in JS

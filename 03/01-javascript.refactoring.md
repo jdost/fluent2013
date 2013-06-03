@@ -1,5 +1,4 @@
-# (Semi-)Automated Javascript Refactoring
-## Giles Bowkett
+## (Semi-)Automated Javascript Refactoring -- *Giles Bowkett*
 
 * Refactoring is tedious and repetitive
 * Robots should do tedious and repetitive work

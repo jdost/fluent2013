@@ -1,5 +1,4 @@
-# Angry Birds of Modern JS
-## Elijah Manor
+## Angry Birds of Modern JS -- *Elijah Manor*
 [Slides](http://elijahmanor.github.io/talks/angry-birds-javascript/index.html)
 
 ### IIFE Pattern
