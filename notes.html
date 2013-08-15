@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Presentation Notes</title>
+
+      <link rel="stylesheet" href="s/fonts/fonts.css">
+      <style>
+         body { top: 0; bottom: 0; }
+         section {
+            display: none;
+            height: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-pack: center;
+            text-align: center;
+            padding: 0 40px;
+
+            font-size: 3em;
+            font-weight: bold;
+            font-family: "Open Sans";
+         }
+
+         .bespoke-active { display: -webkit-box; }
+      </style>
+
+      <script src="s/js/bespoke.min.js"></script>
+      <script>
+         setTimeout(function () {
+            document.body.style.height = document.height + "px";
+            bespoke.horizontal.from('body', { });
+         }, 1000);
+      </script>
+   </head>
+
+   <body>
+      <section>
+         (Placeholder card)
+      </section>
+
+      <section>
+         Summarize the conference.  Was in SF, talked about Javascript...
+      </section>
+
+      <section>
+         Javascript is exciting, a lot of new ideas being brought to the platform
+         and potentially revolutionizing things...
+         <br /><br />
+         Due to the great amount of legacy browsers, these can't make it to
+         primetime, yet
+      </section>
+
+      <section>
+         Like ECMA 6, which is bringing a lot of popular concepts to the languages,
+         but when with that have full support across browsers?
+      </section>
+
+      <section>
+         Or something like web components, a technology that wants to tear down the
+         wall between HTML and JS.
+         <br /><br />
+         But it does have a polyfill library (in alpha).  Sadly it is giant,
+         clocking in over 150 KB
+      </section>
+
+      <section>
+         But I want to talk about web components anyways
+      </section>
+
+      <section>
+         Imagine a world... where you can just import a library... and use new
+         elements.
+      </section>
+
+      <section>
+         or just drop HTML elements in that are really full bodied widgets
+      </section>
+
+      <section>
+         or even give these elements children that can be interpreted (think like
+         the <code>select</code>+<code>option</code> paradigm)
+      </section>
+
+      <section>
+         (give a few seconds for people to recover)...
+      </section>
+
+      <section>
+         now the how, oddly browsers already do it.  Think things like the new
+         'video' tag or 'email' input boxes.  Now they want to provide this power to
+         web developers.
+      </section>
+
+      <section>
+         The bread and butter is the "Shadow DOM".  It is a sort of personal DOM
+         paradise for your widget to live inside of.  Like your own personal iframe,
+         but without being an iframe... and done in a safer way.
+      </section>
+
+      <section>
+         It gives you your own DOM, so smaller model size, no id or class conflicts.
+         This means you can have your own CSS without crazy selector chains to
+         isolate the styles.  And your own JS namespace, so you can mess with the
+         global namespace all you want.  And your own element API.  Calls to the
+         wrapped HTML element you are inside such as `valueOf` can be controlled.
+         <br /><br />
+         For all intents and purposes, the parent application just sees it as
+         another HTML element.
+      </section>
+   </body>
+</html>

@@ -1,0 +1,27 @@
+#overlay {
+   display: block;
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: transparent;
+   -webkit-transition: background-color 500ms;
+   z-index: 2000;
+}
+
+#overlay.black { background: #111; }
+#overlay.white { background: #EEE; }
+
+#progress {
+   position: fixed;
+   display: none;
+   bottom: 0;
+   left: 0;
+   height: 5px;
+   background: #33F;
+   opacity: 0.6;
+   z-index: 1000;
+
+   -webkit-transition: width 500ms;
+}

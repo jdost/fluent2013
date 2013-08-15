@@ -1,0 +1,191 @@
+mark {
+   display: -webkit-box;
+   background: transparent;
+   -webkit-box-align: center;
+   color: inherit;
+   font-family: 'Vollkorn';
+   font-style: italic;
+}
+mark span { margin: 0 20px; }
+mark:before,
+mark:after {
+   content: '';
+   -webkit-box-flex: 1;
+   display: block;
+   height: 0;
+   border-bottom: 1px dotted black;
+}
+hr {
+   border: 0;
+   border-bottom: 1px dotted black;
+   height: 0;
+   margin: 5px 0;
+}
+.dark * { color: white; }
+.dark hr, .dark mark:before, .dark mark:after { border-color: white; }
+.meme h1, .meme h2, .meme h3, .meme h4, .meme h5, .meme h6 {
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
+   -webkit-text-stroke: 2px #000;
+}
+.meme {
+   -webkit-box-pack: end !important;
+   font-size: 2em;
+   padding: 0 0 40px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   padding: 15px 0;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.5em; }
+
+pre {
+   text-align: left !important;
+   margin: 0;
+}
+code { font-family: "Anonymous Pro"; }
+
+body {
+   background-color: #333;
+   font-size: 20px;
+   font-family: 'Open Sans';
+   overflow: hidden;
+}
+
+article {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+
+article .bespoke-active,
+.bespoke-after-1,
+.bespoke-before-1 {
+   position; absolute;
+   top: 0;
+   height: 100%;
+   padding: 0 350px;
+   text-align: center;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-box-pack: center;
+}
+
+.custom { background: #EEE; }
+
+section > * {
+   -webkit-transition: opacity 1000ms ease-in, left 1000ms;
+   -webkit-transition-delay: 500ms;
+   opacity: 0;
+   position: relative;
+}
+.bespoke-slide > *,
+.custom * {
+   opacity: 1;
+   left: 0;
+}
+.bespoke-slide .ready {
+   -webkit-transition-delay: 0;
+}
+.bespoke-slide .wait {
+   opacity: 0;
+}
+.bespoke-inactive:not(.bespoke-after-1):not(.bespoke-before-1) { display: none; }
+.bespoke-after-1, .bespoke-before-1 {
+   position: absolute;
+   opacity: 0;
+}
+.bespoke-after-1 > *,
+.bespoke-before-1 > *,
+.custom:not(.bespoke-active) * { opacity: 0; left: -150px; }
+/** slide backgrounds **/
+article:before {
+   content: "";
+   display: block;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   background-size: cover;
+   background-position: center center;
+}
+article.sanfran:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/goldengate.jpg');
+}
+article.coolstuff:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/golfclub.gif');
+}
+article.sorry:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/rain.gif');
+}
+article.deal:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/sunglasses2.gif');
+}
+article.blown:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/mindblown.gif');
+}
+article.but:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/confused.gif');
+}
+article.shadow:before {
+   -webkit-filter: blur(1px) grayscale(0.6) brightness(0.3);
+   background-image: url('../img/kitty.gif');
+}
+article.knowledge:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/typing.gif');
+}
+article.realization:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/bert.gif');
+}
+article.slow:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/slow.gif');
+}
+article.speed:before {
+   -webkit-filter: blur(1px) grayscale(0.1) brightness(0.8);
+   background-image: url('../img/warp.gif');
+}
+article.att:before {
+   -webkit-filter: blur(1px);
+   background-image: url('../img/allthethings.jpg');
+}
+article.analyst:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/analyst.jpg');
+}
+article.thanks:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/bunny.gif');
+}
+
+/** custom slides **/
+.columns {
+   display: -webkit-box;
+   -webkit-box-pack: center;
+}
+.columns > * {
+   margin: 0 10px;
+}
+.highlight {
+   padding: 10px;
+   box-shadow: 0 0 10px #333;
+}
+
