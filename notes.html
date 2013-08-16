@@ -105,5 +105,105 @@
          For all intents and purposes, the parent application just sees it as
          another HTML element.
       </section>
+
+      <section>
+         Now this is cool and all, but how does this work in the real world. what
+         with half the country using IE8...<br /><br />
+         Use something like modernizr...  Basically detect features that the browser
+         supports and load things on demand based on the capabilities of the browser
+      </section>
+
+      <section>
+         Okay... let's all face this fact, the internet is not all broadband
+         (actually, globally, it is all pretty slow)...<br /><br />
+         In fact, 3G will be the dominent form of internet connectivity for the
+         world for the next decade
+      </section>
+
+      <section>
+         There was a study done, by MS, that showed that a delayed response time
+         from a request of a second or more had a <strong>significant</strong>
+         effect on bounce rate...<br /><br /> i.e. lost revenue, something upwards
+         of 3% of the norm (compared against lower response times)
+      </section>
+
+      <section>
+         So that 1 second ceiling... how is that reachable.  First we need to decide
+         on our target.  If 3G is deemed an outlier (at your own risk) the problem
+         becomes a bit easier.  With 3G there is a large overhead (at least 800ms
+         just to connect to your web server)<br /><br />This includes the overhead
+         of searching and establishing the TCP connection via the towers, the DNS
+         lookup, the initial TCP handshake, and only then does the transfer begin.
+      </section>
+
+      <section>
+         The first part of reaching this golden barrier is to inline only the
+         minimum of the resources into the page.  This means less back and forths
+         before the device begins to consume the payload.  The key is minimum.
+      </section>
+
+      <section>
+         For the rest, you defer all the things.  Async everything else and have
+         them enhance the experience as they load.  (requireJS)
+      </section>
+
+      <section>
+         Add SPDY i.e. HTTP2.0 support to the web server(s).  Optional modules that
+         save the TCP overhead for all subsequent files after the initial handshake.
+         <br /><br />
+         After these things, you are now to <strong>actual</strong> performance,
+         i.e. profiling
+      </section>
+
+      <section>
+         Begin to identify bottlenecks, CSS loading is a blocking process.  This
+         means that the page will not render until the initial CSS (those required
+         by the page) are loaded.  Inline only the basics, async load the rest
+      </section>
+
+      <section>
+         Examine the rendering window (16ms!!!) and look for repaint calculations
+         used within a single window (this means overhead for the renderer to run
+         just to find values).  This is stuff like referencing a <code>height
+         </code> that was just effected.<br /><br />
+         Another is looking for inefficient variable usage, i.e. aggressive garbage
+         collection.  Redeclaring a variable on each loop will initiate the garbage
+         collection.<br /><br />
+         Good news: Chrome has tools to analyze/profile this
+      </section>
+
+      <section>
+         With the growth in JS, so too has there been a growth in ways to more
+         efficiently write the code.  Many tools exist, things like linters, code
+         analytics, and benchmarking
+      </section>
+
+      <section>
+         Linters are just programs that look for common implementation details in
+         code that can lead to issues.  Things like broken syntax, unused variables,
+         polluted global namespace, inefficient loops.<br /><br />
+         <code>jshint</code> and <code>esprima</code> are two different tools that
+         try to identify such issues.
+      </section>
+
+      <section>
+         There are tools that try to analyze a codebase for common patterns and
+         look for styles that are known to lead to issues.  Things such as the
+         complexity of a statement for readability or how inconsistent a codebase
+         is (meaning difficulty to understand what is occurring).  Whether the
+         unittests actually execute every conditional (for every if, there should
+         be at least 2 tests) and identify non DRY code.
+      </section>
+
+      <section>
+         You can also benchmark the codebase over time (using analytics).  To try
+         and understand where complexity is being added quickly and what code is
+         in high churn.  You can also track the time to run the tests or any of the
+         other analytics to see how much the codebase degrade.
+      </section>
+
+      <section>
+         Thats it!, questions?
+      </section>
    </body>
 </html>
