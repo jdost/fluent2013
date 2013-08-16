@@ -173,7 +173,7 @@ article.analyst:before {
 }
 article.thanks:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
-   background-image: url('../img/bunny.gif');
+   background-image: url('../img/highfive.gif');
 }
 
 /** custom slides **/
