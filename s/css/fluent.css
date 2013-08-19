@@ -123,45 +123,85 @@ article.sanfran:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/goldengate.jpg');
 }
-article.coolstuff:before {
+.gifs article.coolstuff:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/golfclub.gif');
 }
-article.sorry:before {
+.no-gifs article.coolstuff:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/noodlehood.jpg');
+}
+.gifs article.sorry:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/rain.gif');
 }
-article.deal:before {
+.no-gifs article.sorry:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/sadkitty.jpg');
+}
+.gifs article.deal:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/sunglasses2.gif');
 }
-article.blown:before {
+.no-gifs article.deal:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/dogglasses.jpg');
+}
+.gifs article.blown:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/mindblown.gif');
 }
-article.but:before {
+.no-gifs article.blown:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/mushroomhead.jpg');
+}
+.gifs article.but:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/confused.gif');
 }
-article.shadow:before {
+.no-gifs article.but:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/confused.jpg');
+}
+.gifs article.shadow:before {
    -webkit-filter: blur(1px) grayscale(0.6) brightness(0.3);
    background-image: url('../img/kitty.gif');
 }
-article.knowledge:before {
+.no-gifs article.shadow:before {
+   -webkit-filter: blur(1px) grayscale(0.6) brightness(0.3);
+   background-image: url('../img/shadowassassin.jpg');
+}
+.gifs article.knowledge:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/typing.gif');
 }
-article.realization:before {
+.no-gifs article.knowledge:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/conspiracy.jpg');
+}
+.gifs article.realization:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/bert.gif');
 }
-article.slow:before {
+.no-gifs article.realization:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/motherofgod.jpg');
+}
+.gifs article.slow:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/slow.gif');
 }
-article.speed:before {
+.no-gifs article.slow:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/turtle.jpg');
+}
+.gifs article.speed:before {
    -webkit-filter: blur(1px) grayscale(0.1) brightness(0.8);
    background-image: url('../img/warp.gif');
+}
+.no-gifs article.speed:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/ferrari.jpg');
 }
 article.att:before {
    -webkit-filter: blur(1px);
@@ -171,9 +211,13 @@ article.analyst:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/analyst.jpg');
 }
-article.thanks:before {
+.gifs article.thanks:before {
    -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
    background-image: url('../img/highfive.gif');
+}
+.no-gifs article.thanks:before {
+   -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
+   background-image: url('../img/thumbsup.jpg');
 }
 
 /** custom slides **/

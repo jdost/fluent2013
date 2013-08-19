@@ -13,6 +13,28 @@
     deck.on('deactivate', updateClass.bind(null, 'remove'));
   };
 
+  bespoke.plugins.gifs = function () {
+    var classes = ["no-gifs", "gifs"],
+      state = 1,
+      EVT_KEY = 71;
+
+    function toggleGifs (evt) {
+      var classList = (document.body.className).split(' ');
+      classList.splice(classList.indexOf(classes[state], 1));
+      state = state ? 0 : 1;
+      classList.push(classes[state]);
+
+      document.body.className = classList.join(' ');
+    }
+
+    document.body.className += ' ' + classes[state];
+
+    window.addEventListener('keydown', function (evt) {
+      if (evt.which === EVT_KEY)
+        toggleGifs(evt);
+    });
+  };
+
   bespoke.plugins.blackout = function () {
     var BLACK_KEY = 66, WHITE_KEY = 87;
     var overlay, shown = false;
